@@ -1,0 +1,25 @@
+{
+  "name": "git_tutorial2",
+  "version": "1.0.0",
+  "description": "git tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "echo \"Hello from sass script\"",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sishihara0706/test_repository.git"
+  },
+  "author": "Satoshi Ishihara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sishihara0706/test_repository/issues"
+  },
+  "homepage": "https://sishihara0706.github.com/test_repository"
+}
